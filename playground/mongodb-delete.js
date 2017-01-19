@@ -7,7 +7,15 @@
 
      db.collection('Todos').deleteMany({text: 'Eat lunch'}).then((res) => {
          console.log(res);
-     })
+     });
+    //  //findOneAndDelete gets the document in the console and deletes it
+    //  db.collection('Todos').findOneAndDelete({completed: false}).then((res) => {
+    //      console.log(res);
+    //  });
+    //  //deleteOne deletes the first instance of the found entrys
+    //  db.collection('Todos').deleteOne({text: 'Eat lunch'}).then((res) => {
+    //      console.log(res);
+    //  });
 
     //  db.close();
  });

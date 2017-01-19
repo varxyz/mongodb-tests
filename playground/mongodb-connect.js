@@ -16,8 +16,8 @@
         age:31,
         location: 'London'
     }, (err, res) => {
-        if (err) return console.log('Unable to insert user');
-        console.log('user data inserted')
+        if (err) return console.log('Unable to insert user', err);
+        console.log('user data inserted', res.ops)
     });
 
      db.close();
