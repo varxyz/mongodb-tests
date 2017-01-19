@@ -12,7 +12,7 @@
     //  db.collection('Todos').findOneAndDelete({completed: false}).then((res) => {
     //      console.log(res);
     //  });
-    //  //deleteOne deletes the first instance of the found entrys
+    //  //deleteOne deletes the first instance of the found entries
     //  db.collection('Todos').deleteOne({text: 'Eat lunch'}).then((res) => {
     //      console.log(res);
     //  });
