@@ -14,7 +14,7 @@
         console.log('Users');
         console.log(JSON.stringify(docs, undefined, 4));
     }, (err) => {
-     console.log('no user with that name');
+        console.log('no user with that name', err);
     });
     //  db.close();
  });

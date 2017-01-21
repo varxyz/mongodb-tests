@@ -5,7 +5,7 @@
      console.log('Connected to MongoDB server');
 
      db.collection('Users').findOneAndUpdate({
-         _id: new ObjectID("587fcf39900848c6fb7c0c3f")
+         _id: new ObjectID('587fcf39900848c6fb7c0c3f')
      }, {
          $set: {
              name: 'Liusea'
@@ -17,7 +17,7 @@
          returnOriginal: false
      }).then((res) => {
          console.log(res);
-     })
+     });
 
     //  db.close();
  });
